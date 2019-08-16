@@ -32,7 +32,7 @@ function makeArrayConsecutive2(statues){
     return total - statues.length
 }
 
-//Soluçao mais directa
+//Another solution
 function makeArrayConsecutive2(statues){
     return Math.max(...statues) - Math.min(...statues)+1 - statues.length
 }

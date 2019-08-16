@@ -32,6 +32,7 @@ function checkPalindromo(inputString){
     return inputString === s;
 }
 
+//Another solution
 function checkPalindromo(inputString){
     
     return inputString === inputString.split('').reverse().join(''); //break,Reverse,Join and compare with given string

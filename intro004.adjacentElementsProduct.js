@@ -35,7 +35,7 @@ function adjacentElementsProduct(inputArray){
    return produtos.sort(function(a,b){return b - a})[0];
 }
 
-//Outra soluçao mais elegante
+//Another solution
 function adjacentElementsProduct(inputArray){
     var prod = inputArray[0] * inputArray[1];
     for (let i = 1; i < inputArray.length-1; i++) {

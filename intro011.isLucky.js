@@ -7,7 +7,7 @@ function isLucky(){
 //Another solution
 function isLucky(n){
     var a = (n + "").split(""), half = a.length/2, l = 0, r = 0;//(n + "") becomes a String
-    while(a.length > half) r+= +a.pop();//+a makes to comeback to int numbers
+    while(a.length > half) r+= +a.pop();//+a Transforms the strings array to ints arrays
     while(a.length) l+= +a.pop();
     return l == r;
 }
