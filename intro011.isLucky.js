@@ -26,7 +26,7 @@ true if n is a lucky ticket number, false otherwise.
 
  */
 
-function isLucky(){
+function isLucky(n){
     var s2 = n.toString().split('').map(x=>parseInt(x));
     var s1 = s2.splice(0, s2.length/2);
     return s1.reduce((t,n)=> t+n) == s2.reduce((t,n)=> t+n);
