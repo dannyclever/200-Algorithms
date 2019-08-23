@@ -17,14 +17,13 @@ songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
   // =>  WE ARE THE CHAMPIONS MY FRIEND */
 
 function songDecoder(song){
-
-    return (
+    if(song.length <= 200)
+    return 
 		song
             // Step 1 & 2
             .replace(/(WUB)+/g, ' ')
 			// Step 3
 			.trim()
-	)
   }
 
 var a = "WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB"
