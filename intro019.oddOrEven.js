@@ -21,7 +21,16 @@ function oddOrEven(array){
   }
  }
 
- var a = [2, 5, 34, 6];
+ function oddOrEven(array){
+    //enter code here
+  var res = array.reduce((a,b)=> a+b, 0);
+  return (!(res&1)) ? "even" : "odd";
+ }
+
+var a = [];
+console.log(oddOrEven(a))
+
+ a = [2, 5, 34, 6];
  console.log(oddOrEven(a));
 
  a = [0, -1, -5];
