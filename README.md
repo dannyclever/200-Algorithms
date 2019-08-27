@@ -11,4 +11,4 @@ Used:
  
 ## Authors
 
- * Neto daniel Zinga https://github.com/dannyclever
+ * Neto Daniel Zinga https://github.com/dannyclever
