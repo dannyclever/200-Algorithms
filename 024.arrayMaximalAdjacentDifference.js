@@ -26,6 +26,17 @@ function arrayMaximalAdjacentDifference(inputArray) {
     return dif.sort((a,b)=> b - a)[0];
 }
 
+//Another solution
+function adjacentElementsProduct(inputArray){
+    var difference = Math.abs(inputArray[0] - inputArray[1]);
+    var i = 1
+    for (; i < inputArray.length-1; i++) {
+        difference = Math.max(Math.abs(difference, inputArray[i] - inputArray[i+1]))
+        
+    }
+    return difference;
+  
+}
 var inputArray = [2, 4, 1, 0]
 console.log(arrayMaximalAdjacentDifference(inputArray))
 
